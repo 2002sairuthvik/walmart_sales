@@ -77,5 +77,65 @@ This project demonstrates a complete data analysis pipeline using a Walmart sale
 
 Follow these steps to set up and run the project on your local machine:
 
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/2002sairuthvik/walmart_sales.git
+cd walmart_sales
+```
+
+### 2️⃣ Create and Activate a Virtual Environment
+
+```bash
+python -m venv my_venv_walmart
+# Activate (Windows)
+my_venv_walmart\Scripts\activate
+# OR (Mac/Linux)
+source my_venv_walmart/bin/activate
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run the Jupyter Notebook
+
+```bash
+jupyter notebook Data_cleaning.ipynb
+```
+
+### 5️⃣ MySQL Setup
+
+- Create a new database in MySQL (e.g., `walmart_sales_db`)
+- Use SQLAlchemy & PyMySQL to connect and upload `Walmart_cleaned.csv` to the DB
+
+### 6️⃣ Power BI
+
+- Open `walmart_sales_visualisation.pbix` in Power BI Desktop
+- Update data source credentials to connect to your MySQL DB
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository  
+2. Create your feature branch (`git checkout -b feature-name`)  
+3. Commit your changes (`git commit -m 'Add feature'`)  
+4. Push to the branch (`git push origin feature-name`)  
+5. Open a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📚 Conclusion
+
+Thank you for checking out this project! If you have any questions, feel free to open an issue or contact me directly. Happy coding!
 
 
